@@ -1,12 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pyarrow
-import seaborn as sns
-import sklearn
-from sklearn.ensemble import HistGradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-import shap
 import sys
 from wsj_style import (apply_style, finish, pct_axis, comma_axis,
                        ACCENT, ACCENT_2, GRAY, INK, INK_2)
