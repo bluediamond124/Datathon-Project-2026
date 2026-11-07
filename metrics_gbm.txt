@@ -1,0 +1,27 @@
+features: 45   trees: 373   test_optional dropped: True
+
+2026 student-level:  AUC 0.9210   Brier 0.0986   (uncalibrated Brier 0.1003)
+2025 (calibration year, optimistic): AUC 0.9261
+
+2026 class size by residency (pool = model, late = add-on):
+                pool_pred  pool_actual  late_pred  late_actual    pred  actual  error  error_pct
+residency                                                                                       
+Contiguous         1557.6         1629       96.3          111  1653.9    1740  -86.1       -5.0
+Non-Contiguous      320.4          312       49.0           37   369.4     349   20.4        5.8
+Resident           2226.1         2128      146.2          144  2372.3    2272  100.3        4.4
+ALL                4104.1         4069      291.5          292  4395.6    4361   34.6        0.8
+
+2026 pool by college (model only, excludes late add-on):
+                                         pool_pred  pool_actual  error
+college                                                               
+Applied Science and Engineering             1189.4         1191   -1.6
+Business, Finance and Industry               500.6          485   15.6
+Land, Environment and Food Sciences          607.5          595   12.5
+Liberal Arts and Sciences                   1046.6         1037    9.6
+Performing and Fine Arts                     311.5          319   -7.5
+Public Health and Translational Science      448.4          442    6.4
+
+Baselines vs actual 2026 total (4361):
+  last year's yield x admits               4430.9   error +69.9
+  deposit split (last year) + late         4301.3   error -59.7
+  GBM pool + late                          4395.6   error +34.6
