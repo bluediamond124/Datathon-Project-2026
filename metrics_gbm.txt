@@ -1,27 +1,27 @@
-features: 46   trees: 472   test_optional dropped: False
+features: 45   trees: 369   test_optional dropped: True
 
-2026 student-level:  AUC 0.9221   Brier 0.0982   (uncalibrated Brier 0.0992)
-2025 (calibration year, optimistic): AUC 0.9252
+2026 student-level:  AUC 0.8899   Brier 0.1227   (uncalibrated Brier 0.1237)
+2025 (calibration year, optimistic): AUC 0.8940
 
 2026 class size by residency (pool = model, late = add-on):
                 pool_pred  pool_actual  late_pred  late_actual    pred  actual  error  error_pct
 residency                                                                                       
-Contiguous         1567.4         1629       96.3          111  1663.7    1740  -76.3       -4.4
-Non-Contiguous      331.5          312       49.0           37   380.5     349   31.5        9.0
-Resident           2223.5         2128      146.2          144  2369.7    2272   97.7        4.3
-ALL                4122.4         4069      291.5          292  4413.9    4361   52.9        1.2
+Contiguous         1393.1         1495      240.8          245  1633.9    1740 -106.1       -6.1
+Non-Contiguous      263.0          267      114.2           82   377.2     349   28.2        8.1
+Resident           2027.1         1897      352.4          375  2379.5    2272  107.5        4.7
+ALL                3683.2         3659      707.4          702  4390.6    4361   29.6        0.7
 
 2026 pool by college (model only, excludes late add-on):
                                          pool_pred  pool_actual  error
 college                                                               
-Applied Science and Engineering             1190.7         1191   -0.3
-Business, Finance and Industry               506.5          485   21.5
-Land, Environment and Food Sciences          609.2          595   14.2
-Liberal Arts and Sciences                   1053.8         1037   16.8
-Performing and Fine Arts                     311.9          319   -7.1
-Public Health and Translational Science      450.4          442    8.4
+Applied Science and Engineering             1073.6         1080   -6.4
+Business, Finance and Industry               458.3          435   23.3
+Land, Environment and Food Sciences          567.7          539   28.7
+Liberal Arts and Sciences                    894.9          912  -17.1
+Performing and Fine Arts                     276.5          291  -14.5
+Public Health and Translational Science      412.1          402   10.1
 
 Baselines vs actual 2026 total (4361):
   last year's yield x admits               4430.9   error +69.9
-  deposit split (last year) + late         4301.3   error -59.7
-  GBM pool + late                          4413.9   error +52.9
+  deposit split (last year) + late         4402.1   error +41.1
+  GBM pool + late                          4390.6   error +29.6
