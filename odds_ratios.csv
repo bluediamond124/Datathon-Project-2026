@@ -1,0 +1,28 @@
+feature,label,odds_ratio
+deposited_by_cut,Deposited by cutoff,15.08
+app_fee_Waived,App fee waived (vs deferred),4.39
+residency_Resident,Resident (vs bordering state),2.29
+college_Liberal Arts and Sciences,Liberal Arts & Sciences (vs Applied Sci & Eng),0.57
+"college_Business, Finance and Industry","Business, Finance & Industry (vs Applied Sci & Eng)",0.61
+visited_by_cut,Visited campus by cutoff,1.45
+college_Public Health and Translational Science,Public Health & Translational Science (vs Applied Sci & Eng),0.71
+app_fee_Paid,Paid app fee (vs deferred),1.3
+hs_rank,HS class rank (+1 SD),0.78
+days_app_to_start,Applied earlier (+1 SD),0.8
+"college_Land, Environment and Food Sciences","Land, Environment & Food Sciences (vs Applied Sci & Eng)",0.81
+undecided,Undecided major,0.83
+legacy,Legacy,1.2
+support_needs,Academic support needs (+1 SD),1.17
+college_Performing and Fine Arts,Performing & Fine Arts (vs Applied Sci & Eng),0.88
+test_score,Test score (+1 SD),0.88
+stem_major,STEM major,1.12
+residency_Non-Contiguous,Non-contiguous state (vs bordering state),0.9
+male,Male,0.93
+coll_math,College math credits (+1 SD),1.05
+stealth,Stealth applicant,0.96
+urm,URM,1.04
+log_miles,"Farther from campus (+1 SD, log)",0.97
+grad_expct,Expects grad school,1.03
+age,Age (+1 SD),0.97
+days_since_deposit,Deposited earlier (+1 SD),0.98
+days_first_contact_to_start,First contact earlier (+1 SD),1.0
